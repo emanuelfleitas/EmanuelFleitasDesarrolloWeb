@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color:#ebf4f5; */
+}
+
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1600px;
+    width:90%;
+}
+
+header{
+    /* background-color:#ebf4f5; */
+}
+
+
+.header{
+    padding: 4vmin 0;
+    margin: auto;
+}
+
+.header.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna{
+    
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    height:100px;
+}
+
+.logo{
+    
+    width: 50%;
+    
+}
+
+.navegador{
+    
+ 
+    padding: 0;
+    text-align: right;
+    width: 50%;
+    
+}
+
+
+
+
+
+
+/* navegador */
+
+
+nav{
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+  
+    display: inline;
+/*     border: 1px solid black; */
+    padding:10px 15px;
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #231f20;
+    font-weight: 3em;
+    font-size: 1.4em;
+}
+
+a:hover{
+    color: #f74545;
+    transition: color 400ms;
+}
+
+
+/* ================== */
+
+
+
+.h4{
+    color: #231f20;
+    font-size:1.5em;
+    font-weight: bold;
+    
+}
+
+.h2{
+    font-size:5em;
+    font-weight: bold;
+}
+
+.h3{
+    font-size:3em;
+    font-weight: bold;
+    color: #231f20;
+
+    font-family: "ATF Alternate Gothic Bd 2", "ATF Alternate Gothic Bd",  "alternate-gothic-atf",  "ATF Alt Goth",  "Alternate Gothic ATF",  "league gothic",  sans-serif;
+}
+
+
+h1{
+    color: #231f20;
+    text-transform: uppercase;
+    font-family: "ATF Alternate Gothic Bd 2", "ATF Alternate Gothic Bd",  "alternate-gothic-atf",  "ATF Alt Goth",  "Alternate Gothic ATF",  "league gothic",  sans-serif;
+}
+
+
+p{
+    margin: 0 auto 1.75em;
+}
+
+
+
+.work-list ul{
+    
+    margin: 15em auto 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10%;
+
+}
+
+.subirLi{
+    margin-top: -10em;
+}
+
+
+.text-block_footer{
+ 
+    max-width:25em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.text-block_{
+    line-height:1.7;
+    max-width:21em;
+    margin-left: 0;
+}
+
+
+.text-block{
+    color: #231f20;
+    font-weight: 4em;
+    font-size: 1.5em;
+}
+
+p.text-block{
+    line-height:1.7;
+    margin-bottom:2.25em;
+    max-width:33em;
+    margin-left: 0;
+}
+
+
+.fondo{
+    background: #ebf4f5;
+}
+
+
+.btn{
+    padding:18px 25px;
+    background-color:#f74545;
+    color: white;
+    border-style: none;
+    font-family: "ITC Franklin Bd", sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color:#231f20;
+    transition: background-color 100ms ease-in;
+}
+
+.centro{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.btnread{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.carrusel{
+    margin-bottom:50px;
+}
+
+
+.slider-grid{
+    padding:0;
+    position: relative;
+    text-align: center;
+
+}
+
+
+.slider-grid li{
+    max-width: 85vmin;
+    display: inline-block;
+    padding: calc(1em + 2vw) calc(0.6em + 3%);
+}
+
+.slider-grid img{
+ 
+    width: 500px;
+    max-height: 500px;
+}
+
+
+.slider-grid .overflow{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+ 
+}
+
+.spacing{
+    margin-bottom: 2em;
+    border: none;
+}
+
+.tier-logos .fourzies{
+    row-gap: 1.5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    columns: calc(2em + 2vw);
+}
+
+.fourzies img{
+    opacity: 0.85;
+    margin-bottom: 0;
+    max-width: 1200px;
+    width: 18%;
+
+}
+
+.footer{
+    text-align: center;
+    padding-top:40px; 
+    padding-bottom: 40px;
+    font-family: "ATF Alternate Gothic Bd 2", "ATF Alternate Gothic Bd",  "alternate-gothic-atf",  "ATF Alt Goth",  "Alternate Gothic ATF",  "league gothic",  sans-serif;
+}
+
+.footer p{
+    color: #231f20;
+    display: block;
+    margin: 0;
+}
+
+.footer a{
+    text-decoration: underline;
+    color: inherit;
+}
+
+
+.footer a:hover{
+    color: #f74545;
+    transition:color 400ms;
+}

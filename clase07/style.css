@@ -1,0 +1,60 @@
+body{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial;
+    line-height: 20px;
+    background-color: #693B4B;
+}
+
+.columna{
+    background-color:#E2EFFC;
+    padding: 1%;
+    margin:5px;
+    float: left;
+    border-radius: 20px;
+}
+
+.texto{
+    color: #693B4B;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo{
+    font-size:30px;
+    color: rgb(177, 71, 39);
+}
+
+.uno{
+    width:46%;
+}
+
+.dos{
+    width:46%;
+}
+@media screen and (max-width:800px){
+    .uno,.dos{
+        float: none;
+        width: 96%;
+    }
+}
+
+img{
+    width:100%;
+}
+
+h1{
+    font-size: 60px;
+}
+
+@media screen and (max-width:800px){
+        h1{
+            font-size: 30px;
+        }
+}
+
+@media screen and (max-width:300px){
+    img{
+        display:none;
+    }
+}

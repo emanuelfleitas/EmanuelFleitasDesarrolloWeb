@@ -1,0 +1,41 @@
+
+
+body{
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.importante {
+   
+    color:red;
+}
+
+.col-3{
+    width:31%;
+    float: left;
+    height: 100%;
+    margin: 3px;
+    padding:3px;
+    border: 1px solid black;
+}
+
+.formulario{
+    width:800px;
+
+
+}
+
+.col-2{
+    border: 1px solid black;
+    width:48%;
+    float: left;
+    height: 100%;
+    margin: 3px;
+    padding:3px;
+}
+
+.form-texto{
+    float:left;
+    width:30%;
+}
