@@ -92,8 +92,8 @@ function resolver(operador){
         case "c":
             resultado = 0;
             historial= ""
-            document.getElementById("uno").value = 0
-            document.getElementById("dos").value = 0
+            document.getElementById("uno").value = ""
+            document.getElementById("dos").value = ""
             document.getElementById("historial").innerHTML = historial;
             break;
     }
